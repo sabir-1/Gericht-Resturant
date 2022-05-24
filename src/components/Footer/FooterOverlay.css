@@ -8,7 +8,7 @@
 }
 .app__footeroverlay-black{
     height: 25%;
-    background: var(--color-black);
+    background: var(--color-black); 
 }
 .app__footeroverlay-img{
     height: 75%;
