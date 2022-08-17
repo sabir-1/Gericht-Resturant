@@ -82,7 +82,18 @@
     background-color: var(--color-black);
     border-radius: 5px;
 }
-
+@media screen and (max-width:767px) {
+    .app__gallery-images_arrows {
+        width: 100%;
+    }
+    .flex__center {
+        flex-wrap: wrap;
+        
+    } 
+    
+    
+    
+}
 @media screen and (min-width:2000px) {
     .app__gallery-content{
         min-width: 1000px;
