@@ -90,6 +90,15 @@
         flex-wrap: wrap;
         
     } 
+    .app__gallery-content {
+        min-width: 100%;
+    }
+    .app__gallery {
+        padding: 4rem 0 4rem 1rem;
+    }
+    .app__gallery-images {
+        max-width: 100%;
+    }
     
     
     
