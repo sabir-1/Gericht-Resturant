@@ -7,9 +7,9 @@ const wines = [
     tags: 'AU | Bottle',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Catena Malbee', 
     price: '$59',
-    tags: 'AU | Bottle',
+    tags: 'AU | Bottle',  
   },
   {
     title: 'La Vieillw Rose',

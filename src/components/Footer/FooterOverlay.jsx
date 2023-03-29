@@ -2,7 +2,7 @@ import React from 'react';
 
 import './FooterOverlay.css';
 
-const FooterOverlay = () => {
+const FooterOverlay = () => { 
   
 return(
   <div className='app__footeroverlay oko'>
