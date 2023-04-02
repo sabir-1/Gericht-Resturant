@@ -8,7 +8,7 @@ const galleryImages =[images.gallery01, images.gallery02, images.gallery03, imag
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
-
+ 
   const scroll = (direaction) =>{
 
     const {current} = scrollRef; 
