@@ -6,9 +6,9 @@ import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
-import SpecialMenu from './Menu/SpecialMenu'; 
+import SpecialMenu from './Menu/SpecialMenu';  
 
-export {
+export { 
   AboutUs,
   Chef,
   FindUs,
