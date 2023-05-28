@@ -7,14 +7,17 @@ import './SpecialMenu.css';
  
 const SpecialMenu = () => {           
   return( 
-  <div className='app__specialMenu flex__center section__padding'>   
+  <div className='app__specialMenu flex__center section__padding'>  
+
+
+  
     <div className="app__specialMenu-title"> 
       <SubHeading title="Menu that fits you palatte"/>  
       <h1 className='headtext__cormorant'>Today’s Special</h1>  
 
     </div>
     <div className='app__specialMenu-menu'>
-      <div className='app__specialMenu-menu_wine flex__center'>
+      <div className='app__specialMenu-menu_wine flex__center'> 
         <p className='app__specialMenu-menu_heading'>wine & bear</p>
         <div className='app__specialMenu_menu_items'>
           {data.wines.map((wine, index) =>(
