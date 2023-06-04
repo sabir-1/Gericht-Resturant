@@ -10,7 +10,7 @@ import SpecialMenu from './Menu/SpecialMenu';
 
 export { 
   AboutUs,
-  Chef,
+  Chef, 
   FindUs,
   Footer,
   Gallery,
