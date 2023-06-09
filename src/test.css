@@ -550,11 +550,11 @@ ul.gva-nav-menu > li .submenu-inner li a:hover, ul.gva-nav-menu > li .submenu-in
 }
 	section#top-mu .elementor-element-7b35b0a{
 	  margin-top: -24px;
-    z-index: 999999999;	
+    z-index: 999999999;	 
 	}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-	#review-sec .testimonial-content { 
+	#review-sec .testimonial-content {  
    
     height: 394px;
 }
