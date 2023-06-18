@@ -14,10 +14,10 @@ const SpecialMenu = () => {
 
   
     <div className="app__specialMenu-title"> 
-      <SubHeading title="Menu that fits you palatte"/>  
-      <h1 className='headtext__cormorant'>Today’s Special</h1>  
+      <SubHeading title="Menu that fits you palatte"/>   
+      <h1 className='headtext__cormorant'>Today’s Special</h1>   
 
-    </div>
+    </div> 
     <div className='app__specialMenu-menu'>
       <div className='app__specialMenu-menu_wine flex__center'> 
         <p className='app__specialMenu-menu_heading'>wine & bear</p>
