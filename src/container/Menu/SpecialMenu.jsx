@@ -6,7 +6,11 @@ import { images, data } from '../../constants';
 import './SpecialMenu.css'; 
  
 const SpecialMenu = () => {     
-  const [name, setName] = useState(null)        
+  const [full, setFull] = useState(null)  
+  const sd = ()=>{
+    return "dsd"
+  } 
+  console.log(sd)     
   return( 
   <div className='app__specialMenu flex__center section__padding'>   
 
