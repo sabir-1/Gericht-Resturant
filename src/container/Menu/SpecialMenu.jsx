@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import { SubHeading, MenuItem } from '../../components';
 
 import { images, data } from '../../constants';
-import './SpecialMenu.css'; 
+import './SpecialMenu.css';  
  
 const SpecialMenu = () => {     
-  const [getItem, setGetItem]= useState(null);
-  const sd = ()=>{
+  const [getItem, setGetItem]= useState(null); 
+  const sd = ()=>{ 
     return "dsdsdds"
   }
   console.log(sd)     
