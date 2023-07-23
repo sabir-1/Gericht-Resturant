@@ -14,9 +14,9 @@ const Intro = () => {
     if(playVideo){
       vidRef.current.pause()
     }else{
-      vidRef.current.play()  
+      vidRef.current.play()   
     }
-  }
+  } 
   return(
   <div className='app__video'>
     <video src={meal} ref={vidRef} type="video/mp4"  loop controls={false} muted />
