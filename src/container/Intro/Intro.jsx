@@ -15,7 +15,7 @@ const Intro = () => {
       vidRef.current.pause()
     }else{
       vidRef.current.play()   
-    }
+    } 
   } 
   return(
   <div className='app__video'>
