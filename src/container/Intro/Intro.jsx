@@ -28,6 +28,8 @@ const Intro = () => {
 
       </div>
     </div>
+
+    
     
   </div>
 )
