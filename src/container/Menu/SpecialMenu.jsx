@@ -5,7 +5,7 @@ import { SubHeading, MenuItem } from '../../components';
 import { images, data } from '../../constants';
 import './SpecialMenu.css';  
 
-const propert = ()=>{
+const propert = ()=>{  
   console.log("test")
 }
  
