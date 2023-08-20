@@ -5,9 +5,7 @@ import { SubHeading, MenuItem } from '../../components';
 import { images, data } from '../../constants';
 import './SpecialMenu.css';  
 
-const propert = ()=>{  
-  console.log("test")
-}
+
  
 const SpecialMenu = () => {     
   const [getItem, setGetItem]= useState(null);  

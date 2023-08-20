@@ -9,7 +9,7 @@ import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';      
 
 export { 
-  AboutUs,
+  AboutUs, 
   Chef, 
   FindUs,
   Footer,
