@@ -43,7 +43,7 @@ const SpecialMenu = () => {
           <div className="kaa"></div>
           
           {data.wines.map((cocktail, index) =>(
-            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} /> 
+            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />  
           ))}
         </div>  
       </div>

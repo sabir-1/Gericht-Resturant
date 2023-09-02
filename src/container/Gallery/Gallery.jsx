@@ -10,7 +10,7 @@ const Gallery = () => {
   const scrollRef = React.useRef(null);
   
   const scroll = (direaction) =>{
-
+    console.log("adadad")
     const {current} = scrollRef; 
 
     if(direaction === 'left'){ 
