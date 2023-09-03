@@ -10,11 +10,11 @@ const Gallery = () => {
   const scrollRef = React.useRef(null);
   
   const scroll = (direaction) =>{
-    console.log("adadad")
+    console.log("object-call",direaction)
     const {current} = scrollRef; 
 
     if(direaction === 'left'){ 
-      current.scrollLeft -= 300;
+      current.scrollLeft -= 300;  
     }else{
       current.scrollLeft += 300;
     }
