@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+
+const [set, _intems] = useState("0")
 
 const FindUs = () => (
   <div className='app__bg app__wrapper section__padding'> 
     <div className='app__wrapper_info'>
       <SubHeading title="ontact"/>
+
       <h1 className='headtext__cormorant' style={{marginBottom:"3rem"}}>Find us</h1>
  
       <div className='app__wrapper-content'>
