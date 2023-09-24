@@ -5,7 +5,7 @@ import { images }  from '../../constants';
   
 
 const FindUs = () => (
-  <div className='app__bg app__wrapper section__padding'> 
+  <div className='app__bg app__wrapper section__padding'>     
     <div className='app__wrapper_info'>
       <SubHeading title="ontact"/>    
     
