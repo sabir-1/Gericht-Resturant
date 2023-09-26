@@ -1,13 +1,13 @@
 import React, { useState, useContext } from 'react';
-import { SubHeading } from '../../components';
-import { images }  from '../../constants';
+import { SubHeading } from '../../components'; 
+import { images }  from '../../constants'; 
 
   
 
 const FindUs = () => (
   <div className='app__bg app__wrapper section__padding'>     
     <div className='app__wrapper_info'>
-      <SubHeading title="ontact"/>    
+      <SubHeading title="ontact"/>     
     
       <h1 className='headtext__cormorant' style={{marginBottom:"3rem"}}>Find us</h1>
  
