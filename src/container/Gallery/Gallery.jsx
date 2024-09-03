@@ -9,6 +9,10 @@ const galleryImages =[images.gallery01, images.gallery02, images.gallery03, imag
 const Gallery = () => {
   const [item, setItem] = useState(0)
   const scrollRef = React.useRef(null);
+
+  const items = ()=>{
+    setItem ++
+  }
   
   const scroll = (direaction) =>{
     console.log("object-call",direaction)
@@ -26,6 +30,8 @@ return(
   <>
   <div className='app__gallery flex__center'>
     <div className='app__gallery-content'>
+      <h4> {{item}} </h4>
+      <button className='btn btn-primary' onClick={items}>Add</button>
       <SubHeading title="Instagram"/>
       <h1 className='headtext__cormorant'>Photo Gallery</h1>
       <p className='p__opensans' style={{color: "#AAA", marginTop: "2rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
