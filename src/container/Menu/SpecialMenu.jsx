@@ -9,6 +9,8 @@ import './SpecialMenu.css';
  
 const SpecialMenu = () => {     
   const [getItem, setGetItem]= useState(null);  
+  const [procedure, setProcedure] = useState(0);
+  console.log(procedure)
   const sd = ()=>{ 
     return "dsdsdds"
   }
